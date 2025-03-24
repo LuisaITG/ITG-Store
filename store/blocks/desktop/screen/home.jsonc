@@ -1,0 +1,15 @@
+{
+    "header-layout.desktop": {
+        "children": [
+        //"header#desktop"
+        "sticky-layout#desktop"//,
+        //"responsive-layout.desktop#desktop__hero"
+        ]
+    },
+    "responsive-layout.desktop#home__section--1": {
+        "title": "Home Section one Desktop",
+        "children": [
+            "flex-layout.row#section--1"
+        ]
+    }
+}

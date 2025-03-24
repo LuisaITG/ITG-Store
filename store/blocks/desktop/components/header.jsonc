@@ -1,0 +1,123 @@
+{
+    "sticky-layout#desktop": {
+      "props": {
+        "blockClass": "sticky-header"
+      },
+      "children": [
+        "flex-layout.row#desktop"
+      ]
+    },
+  
+    "flex-layout.row#desktop": {
+      "title": "Header Content Desktop",
+      "props": {
+        "blockClass": "header-content-desktop",
+        "fullWidth": true,
+        "horizontalAlign": "space-between",
+        "verticalAlign": "center"
+      },
+      "children": [
+        "flex-layout.row#desktop-left",
+        "flex-layout.row#desktop-center",
+        "flex-layout.row#desktop-right"
+      ]
+    },
+  
+    // 🔹 IZQUIERDA: Drawer, Logo, Search
+    "flex-layout.row#desktop-left": {
+      "props": {
+        "blockClass": "header-left",
+        "rowWrapping": "no-wrap",
+        "horizontalAlign": "start",
+        "verticalAlign": "center"
+      },
+      "children": [
+        "drawer",
+        "flex-layout.row#logo-desktop",
+        "search-bar"
+      ]
+    },
+  
+    "flex-layout.row#logo-desktop": {
+      "title": "Logo section",
+      "props": {
+        "blockClass": "logo-desktop",
+        "verticalAlign": "middle"
+      },
+      "children": [
+        "image#logo"
+      ]
+    },
+  
+    // 🔸 CENTRO: Menú superior
+    "flex-layout.row#desktop-center": {
+      "props": {
+        "blockClass": "header-center",
+        "horizontalAlign": "center",
+        "verticalAlign": "center"
+      },
+      "children": [
+        "flex-layout.row#desktop__upper_navigation_menu"
+      ]
+    },
+  
+    "flex-layout.row#desktop__upper_navigation_menu": {
+      "title": "Upper navigation menu",
+      "props": {
+        "blockClass": "upper-navigation-menu",
+        "colSizing": "auto"
+      },
+      "children": [
+        "rich-text#upper-item--1",
+        "rich-text#upper-item--2",
+        "rich-text#upper-item--3",
+        "rich-text#upper-item--4",
+        "rich-text#upper-item--5"
+      ]
+    },
+  
+    "rich-text#upper-item--1": {
+      "props": {
+        "text": "Tendencias de ITGlobers",
+        "blockClass": "upper-navigation-text"
+      }
+    },
+    "rich-text#upper-item--2": {
+      "props": {
+        "text": "Colección del mes",
+        "blockClass": "upper-navigation-text"
+      }
+    },
+    "rich-text#upper-item--3": {
+      "props": {
+        "text": "Ofertas enero",
+        "blockClass": "upper-navigation-text"
+      }
+    },
+    "rich-text#upper-item--4": {
+      "props": {
+        "text": "Cyber Monday",
+        "blockClass": "upper-navigation-text"
+      }
+    },
+    "rich-text#upper-item--5": {
+      "props": {
+        "text": "Never say never",
+        "blockClass": "upper-navigation-text"
+      }
+    },
+  
+    // 🔹 DERECHA: Minicart y Login
+    "flex-layout.row#desktop-right": {
+      "props": {
+        "blockClass": "header-right",
+        "horizontalAlign": "end",
+        "verticalAlign": "center"
+      },
+      "children": [
+        "minicart.v2",
+        "login"
+      ]
+    }
+  }
+  
