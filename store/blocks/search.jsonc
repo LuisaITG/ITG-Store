@@ -1,7 +1,6 @@
 {
-  "store.search": {
-    "blocks": [
-      
-    ]
+  "product": {
+    "path": "/:slug/p",
+    "page": "store.product"
   }
 }

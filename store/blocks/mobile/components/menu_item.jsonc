@@ -1,0 +1,101 @@
+{
+    "vtex.menu@2.x:menu#websites": {
+        "children": [
+            "menu-item#shop"
+            //"menu-item#about-us"
+        ]
+    },
+    "menu-item#shop": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Shop",
+                "text": "Shop"
+            },
+        "iconProps": {
+            "id": "bnd-logo",
+            "size": 16,
+            "viewBox": "0 0 16 16",
+            "activeClassName": "rebel-pink",
+            "mutedClassName": "c-action-primary"
+        },
+        "iconToTheRight": true
+        },
+        "blocks": ["vtex.menu@2.x:submenu#category"] // Defining a submenu
+    },
+    "vtex.menu@2.x:submenu#category": {
+        "children": [
+            "vtex.menu@2.x:menu#category"
+        ]
+        },
+    "vtex.menu@2.x:menu#category": {
+        "props":{
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#category",
+            "menu-item#category",
+            "menu-item#category"
+        ]
+    },
+    "menu-item#category": {
+        "props": {
+            "id": "menu-item-category",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "categorie",
+                "text": "categoria"
+            },
+        "iconProps": {
+            "id": "bnd-logo",
+            "size": 16,
+            "viewBox": "0 0 16 16",
+            "activeClassName": "rebel-pink",
+            "mutedClassName": "c-action-primary"
+        },
+        "iconToTheRight": true
+        },
+        "blocks": ["vtex.menu@2.x:submenu#subcategory"] // Defining a submenu
+    },
+    "vtex.menu@2.x:submenu#subcategory": {
+        "children": [
+            "vtex.menu@2.x:menu#submenusubcategory"
+        ]
+        },
+    "vtex.menu@2.x:menu#submenusubcategory": {
+        "children": [
+            "menu-item#submenusubcategory"
+        ]
+    },
+    "menu-item#submenusubcategory": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Shop",
+                "text": "Shop"
+            },
+        "iconProps": {
+            "id": "bnd-logo",
+            "size": 16,
+            "viewBox": "0 0 16 16",
+            "activeClassName": "rebel-pink",
+            "mutedClassName": "c-action-primary"
+        },
+        "iconToTheRight": true
+        }
+    }
+}

@@ -1,7 +1,9 @@
 {
     "header-layout.mobile": {
         "children": [
-            "sticky-layout#mobile"
+            "sticky-layout#mobile",
+            //"flex-layout.row#1-mobile"
+            "vtex.menu@2.x:menu#websites"
         ]
     }
 }

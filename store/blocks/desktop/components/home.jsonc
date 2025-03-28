@@ -3,6 +3,7 @@
         "title": "Desktop row whith text",
         "children": [
             "rich-text#section--1"
+            //"product-summary.shelf#demo1"
         ]
     },
     "rich-text#section--1": {

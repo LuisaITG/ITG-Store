@@ -1,0 +1,78 @@
+{
+    "responsive-layout.desktop#hero-banner-desktop": {
+        "title": "Hero Banner Desktop",
+        "children": [
+            "flex-layout.row#hero-banner-desktop"
+        ]
+    },
+
+    "flex-layout.row#hero-banner-desktop": {
+        "title": "Hero Banner Desktop",
+        "children": [
+            "image#hero-banner-desktop-left",
+            "flex-layout.col#hero-banner-desktop",
+            "image#hero-banner-desktop-right"
+        ],
+        "props": {
+            "margin": "0 0 0 0",
+            "blockClass": "hero-banner-desktop"
+        }
+    },
+
+    "image#hero-banner-desktop-left":{
+        "title": "Hero Banner Desktop Left",
+        "props": {
+            "src": "assets/img/others/hero-home-desktop/image-watch-left.png",
+            "blockClass": "hero-banner-desktop-left"
+        }
+    },
+    "image#hero-banner-desktop-right":{
+        "title": "Hero Banner Desktop Right",
+        "props": {
+            "src": "assets/img/others/hero-home-desktop/image-watch-right.png",
+            "blockClass": "hero-banner-desktop-right"
+        }
+    },
+    "flex-layout.col#hero-banner-desktop": {
+        "title":"Hero Banner Desktop Center",
+        "props": {
+            "blockClass": "desktop__hero--banner",
+            "conSizing": "auto"
+        },
+         "children": [
+            "rich-text#center-text--title",
+            "rich-text#center-text--subtitle",
+            "rich-text#center-text--description",
+            "link#center-text--button-shop"
+        ]
+    },
+    "rich-text#center-text--title": {
+        "title": "Hero Banner Desktop Text Tilte",
+        "props": {
+            "text": "!WATCH",
+            "blockClass": "text--title"
+        }
+    },
+    "rich-text#center-text--subtitle": {
+        "title": "Hero Banner Desktop Text Subtitle",
+        "props": {
+            "text": "ULTRA 2",
+            "blockClass": "text--subtitle"
+        }
+    },
+    "rich-text#center-text--description": {
+        "title": "Hero Banner Desktop Text Description",
+        "props": {
+            "text": "An amazing product.",
+            "blockClass": "text--description"
+        }
+    },
+    "link#center-text--button-shop": {
+        "title": "Hero Banner Desktop Text Button",
+        "props": {
+            "href": "/",
+            "label": " ",
+            "blockClass": "button-shop"
+        }
+    }
+}

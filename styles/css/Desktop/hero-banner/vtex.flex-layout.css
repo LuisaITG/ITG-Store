@@ -1,0 +1,66 @@
+.flexRow--hero-banner-desktop {
+  height: 422px;
+  top: 168px;
+}
+
+.flexRowContent--hero-banner-desktop {
+  background: #f5f4f6;
+  display: flex;
+  justify-content: center;
+  height: 422px;
+  width: 100%;
+}
+
+.flexRow--hero-banner-desktop :global(.vtex-store-components-3-x-container) {
+  width: 100%;
+  padding: 0px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexRowContent--hero-banner-desktop {
+  position: relative;
+}
+
+.flexRow--hero-banner-desktop
+  :global(.vtex-store-components-3-x-imageElement--hero-banner-desktop-left) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 422px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.flexRow--hero-banner-desktop
+  :global(.vtex-store-components-3-x-imageElement--hero-banner-desktop-right) {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 422px;
+  height: 100%;
+  /* transform : rotate(180deg); */
+}
+
+.flexCol--desktop__hero--banner {
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    width          : 422px;
+}
+
+.flexColChild--desktop__hero--banner {
+    height    : 100px;
+}
+
+.flexCol--desktop__hero--banner :global(.vtex-flex-layout-0-x-flexColChild--desktop__hero--banner) {
+    max-height: 40px;
+    height: auto;
+}
+
+.flexCol--desktop__hero--banner :global(.vtex-rich-text-0-x-paragraph--text--title){
+    margin: 0;
+}
+

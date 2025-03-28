@@ -1,0 +1,50 @@
+.paragraph--desktop-slider--title{
+    color: #1D2734;
+    margin-left: 72px;
+    font-size  : 16px;
+    font-weight: 500;
+    padding-top: 40px;
+}
+
+/* Contenedor de los textos */
+.second-slider-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    padding: 8px 0;
+    text-align: left;
+  }
+  
+  /* Descripción */
+  .paragraph--slider-second-text-description {
+    font-size: 14px;
+    color: #1D273499;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-top: 10px;
+  }
+  
+  /* Precio tachado */
+  .paragraph--slider-second-text-price {
+    font-size: 14px;
+    color: #1D273466;
+    text-decoration: line-through;
+    font-weight: 400;
+    margin: 0;
+  }
+  
+  /* Precio real */
+  .paragraph--slider-second-text-price-offer {
+    font-size: 24px;
+    font-weight: 600;
+    color: #1D2734;
+    margin: 0px;
+  }
+  
+  /* Envío gratis */
+  .paragraph--slider-second-text-free-shipping {
+    font-size: 14px;
+    font-weight: 400;
+    color: #FA2080;
+  }

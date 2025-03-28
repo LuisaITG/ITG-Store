@@ -1,0 +1,35 @@
+.paragraph--upper-navigation-text{
+    font-size      : 12px;
+    font-weight    : 400;
+    line-height    : 100%;
+    letter-spacing : 0%;
+    color          : #1D2734;
+    margin         : 0;
+    text-decoration: none;
+    cursor         : pointer;
+}
+
+.wrapper--upper-navigation-text {
+    margin     : 0;
+    margin-left: 25px;
+}
+
+.paragraph--category-item--text{
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.paragraph--category-item--text ::hover{
+    margin        : 0;
+    font-weight   : 300;
+    font-size     : 12px;
+    line-height   : 100%;
+    letter-spacing: 0%;
+    height: 15px;
+}
+
+.paragraph--upper-navigation-text:hover {
+    border-bottom: 1px solid #1D2734;
+  }
