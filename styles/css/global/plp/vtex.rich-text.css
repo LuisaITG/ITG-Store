@@ -1,0 +1,18 @@
+.paragraph--title-filter-skus {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #1D2734;
+        width: 312px;
+        height: 25px;
+}
+
+.product-summary-description {
+    background-color: aqua !important;;
+  }
+
+  .description {
+    background-color: yellow !important;
+    text-align: justify !important;
+  }

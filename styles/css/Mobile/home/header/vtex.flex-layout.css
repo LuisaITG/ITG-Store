@@ -1,0 +1,14 @@
+.flexRow--header-mobile{
+  width: 100%;
+  height: 158px;
+  background:#FFFFFF;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.flexRow--header-categorys-wrapper-mobile{
+  width: 100px;
+  height: 56;
+  top: 112px;
+  display: flex;
+  justify-content: space-around;
+}

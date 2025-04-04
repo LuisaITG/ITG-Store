@@ -1,14 +1,11 @@
 {
-  "flex-layout.row#product-breadcrumb": {
-  "props": {
-    "marginTop": 4
-  },
-  "children": ["breadcrumb"]
-},
-"breadcrumb": {
-  "props": {
-      "showOnMobile": true
+  "store.product": {
+    "children": [
+      //"rich-text#mobile__section--1",
+      //"flex-layout.row#product-breadcrumb",
+      "flex-layout.row#product-main",
+      "rich-text#spec-title",
+      "product-specification-group#full"
+    ]
   }
-  }
-
 }

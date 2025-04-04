@@ -1,0 +1,52 @@
+/* Imagen y contenedor de superposición */
+.hero-banner-image-container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .hero-banner-overlay {
+    position: relative;
+  }
+  
+  /* Imagen */
+  .hero-banner-image-mobile {
+    width: 100%;
+    height: auto;
+    display: block;
+    z-index: 1;
+  }
+  
+  /* Contenido de texto superpuesto */
+  .mobile__hero--banner {
+    position: absolute;
+    top: 20px; /* Puedes ajustar la posición */
+    left: 20px;
+    z-index: 10;
+    text-align: left;
+  }
+  
+  /* Estilos del texto */
+  .paragraph--text--title-mobile {
+    margin: 0;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 40px;
+  }
+  
+  .paragraph--text--subtitle-mobile {
+    color: #FF8324;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 8px;
+  }
+  
+  .paragraph--text--description-mobile {
+    color: #1D2734;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 16.8px;
+    margin-top: 4px;
+  }
+
+  

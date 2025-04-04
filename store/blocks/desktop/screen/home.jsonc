@@ -1,23 +1,12 @@
 {
-    "header-layout.desktop": {
-        "children": [
-        //"header#desktop"
-        "sticky-layout#desktop",
-        //"flex-layout.row#desktop__header-categorys",
-        "responsive-layout.desktop#hero-banner-desktop",
-        //"flex-layout.row#desktop-slider-home",
-        "flex-layout.row#desktop__slider",
-        "flex-layout.row#second-sliders-home",
-        "flex-layout.row#desktop__slider",
-        "flex-layout.row#second-sliders-home"
-        //"slider-layout#demo-products"
-        //"product-summary.shelf#demo1"
-        //"responsive-layout.desktop#hero-banner-desktop"
-        ]
-    },
     "responsive-layout.desktop#home__section--1": {
         "title": "Home Section one Desktop",
         "children": [
+            "responsive-layout.desktop#hero-banner-desktop",
+            "flex-layout.row#desktop__slider",
+            "flex-layout.row#second-sliders-home",
+            "flex-layout.row#desktop__slider",
+            "flex-layout.row#second-sliders-home",
             "flex-layout.row#section--1"
         ]
     }

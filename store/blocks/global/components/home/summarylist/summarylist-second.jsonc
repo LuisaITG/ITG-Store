@@ -36,7 +36,8 @@
             // "product-summary-buy-button"
         ],
         "props":{
-            "blockClass": "slider-complete"
+            "blockClass": "slider-complete",
+            "linkToProduct": false
         }
     },
     "image#slider-two-item":{

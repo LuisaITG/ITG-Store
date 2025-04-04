@@ -1,0 +1,60 @@
+.filter__container--title {
+    display: none !important;
+}
+  
+
+.totalProducts--layout {
+    width: 172px;
+    height: 18px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #1D2734;
+    margin-bottom: 20px;
+}
+
+.totalProductsMessage {
+    color: #1D2734;
+}
+
+.orderByOptionsContainer {
+    top                       : 45px;
+    width                     : 240px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius : 8px;
+    overflow                  : hidden;
+    padding                   : 5px;
+}
+
+@media (max-width: 1023px) {
+    .orderByOptionsContainer {
+        position: absolute;
+        left    : 0;
+    }
+}
+
+.orderByOptionItem {
+    text-align    : left;
+    color         : #1D2734;
+    font-weight   : 400;
+    text-transform: lowercase;
+    font-size     : 14px;
+}
+
+.gallery {
+    margin-top: 0;
+    margin-left: 50px;
+}
+
+.galleryItem--normal {
+    padding-left : 2px;
+    padding-right: 2px;
+}
+
+@media (max-width: 728px) {
+    .galleryItem--normal {
+        padding-bottom: 6px;
+        padding-top   : 6px;
+    }
+}

@@ -1,0 +1,99 @@
+{
+    "search-content#global_search--layout":{
+        "title": "",
+        "blocks": [
+            "gallery#global_search",
+            "not-found"
+        ]
+    },
+
+    "gallery#global_search": {
+        "props": {
+            "layouts": [
+                {
+                    "name": "whole",
+                    "component": "OneOrTwoLineSummary",
+                    "itemsPerRow": 3
+                }
+                // ,
+                // {
+                //     "name": "two",
+                //     "component": "OneOrTwoLineSummary",
+                //     "itemsPerRow": 2
+                // },
+                // {
+                //     "name": "many",
+                //     "component": "ManyByLineSummary",
+                //     "itemsPerRow": {
+                //         "desktop": 3,
+                //         "mobile": 1
+                //     }
+                // }
+            ],
+            "OneOrTwoLineSummary": "product-summary.shelf#global_content-skus"
+            // ,
+            // "ManyByLineSummary": "product-summary.shelf"
+        }
+    },
+
+    "product-summary.shelf#global_content-skus": {
+        "title": "",
+        "props":{
+            "blockClass": ""
+        },
+        "children": [
+            "flex-layout.row#product-summary"
+        ]
+    },
+
+    "flex-layout.row#product-summary": {
+        "title": "",
+        "props":{
+            "blockClass": "product-summary"
+        },
+        "children": [
+            "product-summary-image",
+            "flex-layout.col#global_descripcion-skus"
+        ]
+    },
+
+    "flex-layout.col#global_descripcion-skus":{
+        "title": "",
+        "props":{
+            "blockClass": "global-description-skus"
+        },
+        "children": [
+            //"product-summary-name",
+            "product-summary-description",
+            "product-summary-price"
+        ]
+    },
+
+    "rich-text#global_title-filter-skus":{
+        "title": "",
+        "props": {
+            "text": "Clothing, Shoes and Accesories",
+            "blockClass": "title-filter-skus"
+        }
+    },
+
+    "flex-layout.row#product-breadcrumb": {
+        "children": [
+            "breadcrumb"
+        ],
+        "props": {
+            "marginBottom": 3,
+            "blockClass": "plp-breadcrumb"
+        }
+    },
+
+    "breadcrumb": {
+        "props": {
+            "showOnMobile": true,
+            "showOnDesktop": true,
+            "blockClass": "plp-breadcrumb-text"
+        }
+    }
+
+    
+}

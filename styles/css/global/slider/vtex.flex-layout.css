@@ -35,6 +35,7 @@
 .flexCol--slider--text {
     height  : 79px;
     position: relative;
+    text-decoration: none;
 }
 
 .flexCol--first-slider-home {
@@ -49,3 +50,4 @@
     height: 140px;
 
 }
+

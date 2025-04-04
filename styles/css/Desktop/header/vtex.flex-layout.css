@@ -17,7 +17,7 @@
   margin-top: 30px;
 }
 
-.flexRow--logo-desktop {
+.flexRow--logo {
   display: flex;
   align-items: center;
   width: 32px;
@@ -77,8 +77,4 @@
   justify-items     : normal;
   align-items       : start;
   justify-content   : start;
-}
-
-.imageElement--open-drawer{
-  margin-top: 500px;
 }
