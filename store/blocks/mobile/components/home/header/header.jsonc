@@ -22,10 +22,10 @@
         "blockClass": "header-mobile"
       },
       "children": [
-        "flex-layout.row#mobile--content",
+        "flex-layout.row#mobile--content"
         //"flex-layout.row#desktop__header-categorys"
         //"flex-layout.row#header-categorys-wrapper-mobile"
-        "flex-layout.row#mobile__header-categorys-mobile"
+        //"flex-layout.row#mobile__header-categorys-mobile"
       ]
     },
 
@@ -37,7 +37,7 @@
             "image#logo",
             "flex-layout.col#spacer",
             "image#menu-upper--search",
-            "minicart.v2",
+            "minicart.v2#demo",
             "login"
         ],
         "props": {

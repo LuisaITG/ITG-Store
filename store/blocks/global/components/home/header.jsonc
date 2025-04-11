@@ -22,7 +22,7 @@
         "src": "assets/img/icons/Icon_Black.svg"
       }
   },
-  "drawer": {
+  /*"drawer": {
     "title": "Drawer Header",
     "props": {
       "orientation": "middle",
@@ -49,12 +49,8 @@
     "children": [
       //"menu-item#category-clothing"
     ]
-  },
-  "minicart.v2": {
-    "props": {
-      "blockClass": "custom-minicart"
-    }
-  },
+  },*/
+  
   "login": {
     "props": {
       "blockClass": "custom-login"

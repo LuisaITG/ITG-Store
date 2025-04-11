@@ -2,13 +2,17 @@
     "responsive-layout.mobile#mobile__home__section--1": {
         "title": "Home Section one mobile",
         "children": [
-            "sticky-layout#mobile",
             "responsive-layout.mobile#hero-banner-mobile",
-            "flex-layout.row#mobile__section--1",
             "flex-layout.row#desktop__slider",
-            "flex-layout.row#second-sliders-home",
-            "flex-layout.row#desktop__slider",
-            "flex-layout.row#second-sliders-home"
+            "flex-layout.row#mobile__section--1"
+
+            // "responsive-layout.mobile#hero-banner-mobile",
+            // "flex-layout.row#mobile__section--1",
+            // "flex-layout.row#desktop__slider",
+            //"flex-layout.row#second-sliders-home",
+            // "flex-layout.row#desktop__slider",
+            // "flex-layout.row#mobile__section--1"
+            //"flex-layout.row#second-sliders-home"
         ]
     }
 }

@@ -38,15 +38,29 @@
       },
       "children": [
         "drawer",
+        //"flex-layout.col#desktop__navbar--menu",
         //"sticky-layout#desktop__menga-menu",
         "flex-layout.row#logo",
         //"search-bar",
         "search-bar#menu-pper--search",
         "flex-layout.row#desktop__upper_navigation_menu",
-        "minicart.v2",
+        "minicart.v2#demo",
         "login"
       ]
     },
+
+    "flex-layout.col#desktop__navbar--menu": {
+      "props": {
+          "blockClass": [
+              "desktop__navbar--menu"
+          ],
+          "verticalAlign": "middle"
+      },
+      "children": [
+          //"sticky-layout#desktop__mega-menu"
+          "sticky-layout#4-desktop"
+      ]
+  },
   
     "search-bar#menu-pper--search": {
         "title": "search navbar",

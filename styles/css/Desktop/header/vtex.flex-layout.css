@@ -39,12 +39,6 @@
 }
 
 .flexRowContent--header-categorys {
-  /* height          : 100%;
-  max-height      : 56px;
-  height          : 56px;
-  display         : flex;
-  justify-content   : center;
-  width: 1280px; */
   width: 1136px;
   height: 47px;
   top: 9px;
@@ -71,10 +65,4 @@
 
 .flexCol--category-item:hover {
   border-bottom: 3px solid #1D2734;
-}
-
-.flexRow--desktop__header--menu-categorys :global(.vtex-flex-layout-0-x-flexRowContent--desktop__header--menu-categorys) {
-  justify-items     : normal;
-  align-items       : start;
-  justify-content   : start;
 }

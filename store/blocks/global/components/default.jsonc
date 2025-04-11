@@ -10,7 +10,7 @@
     }
   },
 
-  "store.login": {
+   "store.login": {
     "blocks": ["login-content#default"]
   },
 

@@ -4,9 +4,11 @@
         "children": [
             "responsive-layout.desktop#hero-banner-desktop",
             "flex-layout.row#desktop__slider",
-            "flex-layout.row#second-sliders-home",
+            //"flex-layout.row#second-sliders-home",,
+            //"list-context.product-list#demo1",
             "flex-layout.row#desktop__slider",
-            "flex-layout.row#second-sliders-home",
+            //"flex-layout.row#second-sliders-home",
+            //"list-context.product-list#demo1",
             "flex-layout.row#section--1"
         ]
     }

@@ -44,7 +44,8 @@
             "rowGap": 0
         },
         "children": [
-            "product-name",
+            //"product-name",
+            "vtex.store-components:product-name",
             "product-price",
             "product-separator",
             "sku-selector",

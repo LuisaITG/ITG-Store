@@ -1,0 +1,46 @@
+.minicart__product-list .vtex-product-list-0-x-productImage {
+    border: 2px solid #0F3E99 !important;
+    border-radius: 6px;
+  }
+
+.minicartTitle {
+    font-size: 0;
+    position : relative;
+}
+
+.closeIconContainer {
+    display        : flex;
+    justify-content: space-between;
+    align-items    : center;
+    padding-left   : 36px;
+}
+
+.closeIconContainer::before {
+    content          : "";
+    background-image : url("assets/img/icons/Icon_Black.svg");
+    width            : 70px;
+    height           : 25px;
+    margin-top: 72px;
+    background-repeat: no-repeat;
+}
+
+.minicartIconContainer :global(.vtex-store-icons-0-x-cartIcon) {
+    width     : 20px;
+    height    : 20px;
+}
+
+.minicartCheckoutButton :local(button) {
+    border-radius: 40px;
+    border-width : 1px;
+    background-color   : #1D2734;
+}
+
+.minicartCheckoutButton :local(div) {
+    font-weight   : 400;
+    font-size     : 14px;
+    line-height   : 100%;
+    letter-spacing: 0%;
+    text-align    : center;
+    text-transform: capitalize;
+}
+

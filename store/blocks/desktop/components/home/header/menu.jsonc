@@ -1,44 +1,57 @@
 {
-    "sticky-layout#desktop__menga-menu": {
-        "children": [
-            "flex-layout.row#desktop__mega-menu__content",
-            "flex-layout.row#content--mega-menu"
-        ]
+    "sticky-layout#4-desktop": {
+      "children": [
+        "flex-layout.row#4-desktop",
+        "flex-layout.row#mega-menu"
+      ]
     },
-    "flex-layout.row#desktop__mega-menu__content": {
-        "children": [
-            "flex-layout.col#trigger-mega-menu"
-        ],
-        "props": {
-            "blockClass": "desktop__mega-menu__content"
-        }
+  
+    "flex-layout.row#4-desktop": {
+      "children": [
+        "flex-layout.col#trigger-mega-menu"
+      ]
     },
-    "flex-layout.row#content--mega-menu": {
-        "children": [
-            "mega-menu#desktop"
-        ],
-        "props": {
-            "blockClass": "content--mega-menu"
-        }
-    },
-    "mega-menu#desktop": {
-        "props": {
-            "openOnly": "horizontal"
-        }
-    },
+  
     "flex-layout.col#trigger-mega-menu": {
-        "props": {
-            "verticalAlign": "middle",
-            "blockClass": "trigger-mega-menu"
-        },
-        "children": [
-            "mega-menu-trigger-btn"
-        ]
+      "props": {
+        "verticalAlign": "middle",
+        "blockClass": "trigger-mega-menu"
+      },
+      "children": [
+        "vtex.mega-menu:mega-menu-trigger-btn"
+      ]
     },
-    "mega-menu-trigger-btn#mega-menu--button": {
-        "props": {
-            "Drawer": "drawer",
-            "blockClass": "mega-menu--button"
+  
+    "vtex.mega-menu:mega-menu-trigger-btn": {
+      "props": {
+        "label": "Categorías",
+        "iconSize": 5,
+        "showText": true,
+        "Drawer": "drawer",
+        "blockClass": "mega-menu-trigger"
+      }
+    },
+  
+    "flex-layout.row#mega-menu": {
+      "props": {
+        "blockClass": "content--mega-menu",
+        "style": {
+          "maxWidth": "1600px",
+            "width": "100%",
+            "margin": "0 auto"
         }
+      },
+      "children": [
+        "vtex.mega-menu:mega-menu#desktop"
+      ]
+    },
+  
+    "vtex.mega-menu:mega-menu#desktop": {
+      "props": {
+        "menu": "mainmenu", // 👈 REEMPLAZA con el slug del menú que creaste en CMS
+        "openOnHover": true,
+        "blockClass": "mega-menu"
+      }
     }
-}
+  }
+  

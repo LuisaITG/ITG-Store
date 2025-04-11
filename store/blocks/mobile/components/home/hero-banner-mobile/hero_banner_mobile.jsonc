@@ -1,0 +1,27 @@
+{
+    "responsive-layout.mobile#hero-banner-mobile": {
+        "title": "Hero Banner mobile",
+        "children": [
+            "flex-layout.row#hero-banner-mobile"
+        ]
+    },
+
+    "flex-layout.row#hero-banner-mobile":{
+        "title": "Hero Banner Mobile",
+        "children": [
+            "image#hero-banner-mobile"
+        ],
+        "props": {
+            "margin": "0 0 0 0",
+            "blockClass": "hero-banner-mobile"
+        }
+    },
+
+    "image#hero-banner-mobile":{
+        "title": "Hero Banner Mobile Image",
+        "props": {
+            "src": "assets/img/others/hero-home-mobile/hero-home-mobile-image.png",
+            "blockClass": "hero-banner-desktop-left"
+        }
+    }
+}

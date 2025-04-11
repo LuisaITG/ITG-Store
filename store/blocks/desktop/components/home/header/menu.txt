@@ -1,0 +1,45 @@
+{
+    "sticky-layout#desktop__mega-menu": {
+        "children": [
+            "flex-layout.row#desktop__mega-menu",
+            "flex-layout.row#content--mega-menu"
+        ]
+    },
+    "flex-layout.row#desktop__mega-menu": {
+        "children": [
+            "flex-layout.col#trigger-mega-menu"
+        ],
+        "props": {
+            "blockClass": "desktop__mega-menu__content"
+        }
+    },
+    "flex-layout.row#content--mega-menu": {
+        "children": [
+            "vtex.mega-menu:mega-menu#desktop"
+        ],
+        "props": {
+            "blockClass": "content--mega-menu"
+        }
+    },
+    "vtex.mega-menu:mega-menu#desktop": {
+        "props": {
+            "openOnly": "horizontal"
+        }
+    },
+    "flex-layout.col#trigger-mega-menu": {
+        "props": {
+            "verticalAlign": "middle",
+            "blockClass": "trigger-mega-menu"
+        },
+        "children": [
+            "vtex.mega-menu:mega-menu-trigger-btn"
+
+        ]
+    },
+    "vtex.mega-menu:mega-menu-trigger-btn": {
+        "props": {
+            "Drawer": "drawer",
+            "blockClass": "mega-menu--button"
+        }
+    }
+}

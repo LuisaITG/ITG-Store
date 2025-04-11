@@ -1,0 +1,29 @@
+.paragraph--minicart-default-empty-state-offer{
+    font-weight   : 300;
+    font-size     : 12px;
+    line-height   : 19px;
+    letter-spacing: 0px;
+    text-align    : center;
+    margin: 0;
+    color: #1D2734;
+}
+
+.paragraph--minicart-default-empty-state{
+  font-weight   : 600;
+  font-size     : 14px;
+  line-height   : 24px;
+  letter-spacing: 0px;
+  margin: 0;
+  color: #1D2734;
+}
+
+.paragraph--minicart-title{
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  width: 162px;
+  height: 18px;
+  margin-top: -39px;
+  margin-left: 16px;
+}

@@ -1,0 +1,31 @@
+.flexRow--minicart-footer {
+  position  : absolute;
+  bottom    : 0;
+  width     : 100%;
+  box-shadow: none;
+}
+
+.minicart-empty-state-image{
+    width: 200;
+    height: 200;
+    padding-top: 0px;
+    margin-left: 91px;
+    border-radius: 74px;
+
+}
+
+.flexCol--minicart-empty-state-content
+  :global(.vtex-store-components-3-x-imageElement--minicart-empty-state-image){
+    width: 200px;
+    height: 200px;
+    border-radius: 74px;
+    margin-top: -187px;
+}
+
+.flexRow--minicart__product-list{
+  width: 328;
+  height: 120.9913558959961;
+  margin-left: 16px;
+  gap: 15.12px;
+}
+
