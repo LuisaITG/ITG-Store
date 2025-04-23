@@ -1,0 +1,154 @@
+.content--loginOptions,
+.content--emailVerification,
+.content--codeConfirmation,
+.content--recoveryPassword,
+.content--emailAndPassword,
+.content--accountOptions,
+.content--beginCreatePass {
+    width: 423px !important;
+    height: 303px !important;
+    margin-top: 64px !important;
+    margin-right: 180px !important;
+    background-color: #FFFFFF !important;
+    border-radius: 0px 0px 8px 8px !important;
+    padding-top: -16px !important;
+}
+
+.formTitle {
+    font-weight: 300 !important;
+    font-size: 20px !important;
+    line-height: 114.99999999999999% !important;
+    letter-spacing: 0% !important;
+    text-align: center !important;
+    vertical-align: middle !important;
+    text-transform: uppercase !important;
+    color: #0C2340 !important;
+}
+
+.accessCodeOptionBtn,
+.emailPasswordOptionBtn,
+.googleOptionBtn,
+.facebookOptionBtn {
+    width: 368px !important;
+    height: 48px !important;
+    gap: 10px !important;
+    border-radius: 40px !important;
+
+}
+
+.accessCodeOptionBtn :local(button),
+.emailPasswordOptionBtn :local(button) {
+    height       : 48px;
+    background   : transparent;
+    border-radius: 40px;
+    border       : 1px solid #1D2734 !important;
+}
+
+.accessCodeOptionBtn :local(button):hover,
+.emailPasswordOptionBtn :local(button):hover {
+    background: white;
+}
+
+.accessCodeOptionBtn :local(div),
+.emailPasswordOptionBtn :local(div),
+.googleOptionBtn :local(span) {
+    text-transform: capitalize;
+    font-weight   : 400;
+    font-size     : 14px;
+    line-height   : 100%;
+    letter-spacing: 0px;
+    text-align    : center;
+    color         : #1D2734 !important;
+}
+
+.googleOptionBtn :local(button) {
+    height       : 48px;
+    border-radius: 48px;
+    background   : white !important;
+    position     : relative;
+}
+
+.googleOptionBtn :local(svg) {
+    position : absolute;
+    top      : 12px;
+    left     : 22px;
+    transform: scale(1.2);
+}
+
+.facebookOptionBtn :local(button) {
+    height       : 48px;
+    border-radius: 48px;
+    background-color   : #1877F2 !important;
+    position     : relative;
+}
+
+.facebookOptionBtn :local(svg) {
+    position     : absolute;
+    background   : white;
+    border-radius: 100%;
+    width: 24;
+    height: 22.86px;
+    left: 23px;
+
+}
+
+.facebookOptionBtn :local(span) {
+    text-transform: capitalize;
+    font-weight   : 400;
+    font-size     : 14px;
+    line-height   : 100%;
+    letter-spacing: 0px;
+    text-align    : center;
+    color         : white;
+}
+
+.forgotPasswordLink  {
+    font-size      : 0 !important;
+    position       : relative !important;
+    justify-content: center !important;
+    width          : 100% !important;
+}
+
+.forgotPasswordLink::before {
+    content       : "Forgot your password?" !important;
+    font-size     : 14px !important;
+    font-weight   : 300 !important;
+    font-size     : 14px !important;
+    line-height   : 20px !important;
+    letter-spacing: 0px !important;
+    margin-left: 50px !important;
+    color         : #0C2340 !important;
+}
+
+.forgotPasswordLink::after {
+    content                  : "Reset Password" !important;
+    font-weight              : 300 !important;
+    font-size                : 14px !important;
+    line-height              : 20px !important;
+    letter-spacing           : 0% !important;
+    margin-right            : 50px !important;
+    text-align               : center !important;
+    text-decoration          : underline !important;
+    text-decoration-style    : solid !important;
+    text-decoration-thickness: 0% !important;
+    color                    : #E56A54 !important;
+}
+
+.inputContainerEmail :local(input),
+.inputContainerPassword :local(input),
+.content--codeConfirmation :local(input) {
+    height        : 100%;
+    border        : 1px solid #1D2734;
+    text-align    : left;
+    border-radius : 40px;
+}
+
+.inputContainerPassword :local(span) {
+    position: absolute;
+    top     : 8px;
+    right   : 8px;
+}
+
+.customOAuthOptionBtn {
+    display: none !important;
+}

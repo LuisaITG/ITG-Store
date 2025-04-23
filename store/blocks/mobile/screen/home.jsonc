@@ -4,15 +4,9 @@
         "children": [
             "responsive-layout.mobile#hero-banner-mobile",
             "flex-layout.row#desktop__slider",
-            "flex-layout.row#mobile__section--1"
-
-            // "responsive-layout.mobile#hero-banner-mobile",
-            // "flex-layout.row#mobile__section--1",
-            // "flex-layout.row#desktop__slider",
-            //"flex-layout.row#second-sliders-home",
-            // "flex-layout.row#desktop__slider",
-            // "flex-layout.row#mobile__section--1"
-            //"flex-layout.row#second-sliders-home"
+            "flex-layout.row#summary-list",
+            "flex-layout.row#desktop__slider",
+            "flex-layout.row#summary-list"
         ]
     }
 }

@@ -1,33 +1,26 @@
-{
-    "flex-layout.row#product-breadcrumb": {
-        "title":"",
-        "props": {
-          "marginTop": 4
-        },
-        "children": [
-            "breadcrumb"
-        ]
-    },
-    
-    "breadcrumb": {
-        "props": {
-            "showOnMobile": true
-        }
-    },
-    
+{    
     "flex-layout.row#content_plp":{
-        "title": "",
+        "title": "Container Result content PLP",
         "children": [
             "flex-layout.col#product_list"
         ]
     },
 
     "flex-layout.col#product_list":{
-        "title": "",
+        "title": "Product list Col",
         "children": [
+            "breadcrumb.search#desktop__result__filter--search",
             "flex-layout.row#container_result--order-filter",
             "flex-layout.row#container_result--content"
         ]
+    },
+
+    "breadcrumb.search#desktop__result__filter--search": {
+        "title": "Breadcrumb Search - Desktop Filter",
+        "props": {
+            "showOnMobile": true,
+            "homeIconSize": 16
+        }
     },
 
     "flex-layout.row#container_result--order-filter":{
@@ -35,7 +28,6 @@
         "children":[
             "flex-layout.col#count-title",
             "order-by.v2"
-            //"filter-navigator.v3"
         ],
         "props":{
             "blockClass": "filter_navigation--plp"

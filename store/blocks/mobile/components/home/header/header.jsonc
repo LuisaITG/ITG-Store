@@ -38,7 +38,7 @@
             "flex-layout.col#spacer",
             "image#menu-upper--search",
             "minicart.v2#demo",
-            "login"
+            "login#demo"
         ],
         "props": {
             "blockClass": "main-header-mobile",

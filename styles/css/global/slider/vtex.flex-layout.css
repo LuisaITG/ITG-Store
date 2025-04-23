@@ -2,7 +2,8 @@
     padding-top: 40px;
     display: flex;
     background-color: #F5F4F6;
-
+    margin-bottom: 70px;
+    
 }
 
 .flexRow--desktop-slider-home {
@@ -15,6 +16,7 @@
     width        : 100%;
     padding-left : 94px;
     padding-right: 94px;
+    
 }
 
 @media (max-width: 1000px) {

@@ -1,0 +1,139 @@
+.nameContainer {
+    padding : 0;
+    bottom  : 0;
+}
+
+.brandName {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16.8px;
+    letter-spacing: 0px;
+    color: #1D273499;
+    padding : 0;
+    bottom  : 0;
+    line-height: 10px;
+}
+
+.priceContainer {
+    padding : 0;
+    bottom  : 0;
+    line-height: 10px;
+}
+
+.installmentContainer,
+.price_sellingPriceLabel,
+.price_listPriceLabel {
+   display: none;
+}
+
+.price_sellingPriceContainer{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28.8px;
+    letter-spacing: 0px;
+    margin-left: -110px;
+    padding : 0;
+    bottom  : 0;
+}
+
+.price_listPrice{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16.8px;
+    letter-spacing: 0px;
+    text-decoration: line-through;
+    margin-left: -130px;
+    padding : 0;
+    bottom  : 0;
+}
+
+.image{
+    width: 178px;
+    height: 140px;
+}
+
+.clearLink--global__summary__content--products-info :global(.vtex-store-components-3-x-sellingPriceValue)::after {
+    content       : "Envío gratis ⚡";
+    display       : block;
+    font-family   : "Lexend";
+    font-weight   : 400;
+    font-size     : 12px;
+    line-height   : 16px;
+    letter-spacing: 0px;
+    color         : #FA2080;
+
+}
+
+.buyButtonContainer {
+    padding : 0;
+    bottom  : 20px;
+    width: 212px;
+    height: 48px;
+    border-radius: 8px;
+    border-width: 1px;
+    padding: 10px;
+    position: absolute;
+
+}
+
+.buyButtonContainer :local(button) {
+    background   : transparent;
+    border       : 1px solid #1D2734;
+    border-radius: 8px;
+    height       : 48px;
+}
+
+.buyButtonContainer :local(span) {
+    font-weight   : 400;
+    font-size     : 0;
+    line-height   : 100%;
+    letter-spacing: 0px;
+    text-align    : center;
+    color         : #1D2734;
+    text-transform: capitalize;
+    display       : flex;
+    align-items   : center;
+    gap           : 7px;
+}
+
+.buyButtonContainer :local(span)::after {
+    content  : "Comprar";
+    font-size: 14px;
+}
+
+.buyButtonContainer :local(span)::before {
+    content         : "";
+    width           : 20px;
+    height          : 20px;
+    background-image: url("assets/img/icons/add_shopping_cart.svg");
+    display         : flex;
+}
+
+.container--global__summary__content--products-info :global(.vtex-store-components-3-x-discountInsideContainer) {
+    background     : #1D2734;
+    width          : 84px;
+    height         : 25px;
+    padding        : 0;
+    top            : -12px;
+    left           : -17px;
+    border-radius  : 8px;
+    font-weight    : 400;
+    font-size      : 14px;
+    line-height    : 20px;
+    letter-spacing : 0px;
+    vertical-align : middle;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    gap            : 4px;
+}
+
+.container--global__summary__content--products-info :global(.vtex-store-components-3-x-discountInsideContainer)::after {
+    content: "OFF";
+}
+
+
+.element--global__summary__content--products-info{
+    width: 212px;
+    height: 378px;
+}

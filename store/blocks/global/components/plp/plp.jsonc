@@ -15,24 +15,8 @@
                     "component": "OneOrTwoLineSummary",
                     "itemsPerRow": 3
                 }
-                // ,
-                // {
-                //     "name": "two",
-                //     "component": "OneOrTwoLineSummary",
-                //     "itemsPerRow": 2
-                // },
-                // {
-                //     "name": "many",
-                //     "component": "ManyByLineSummary",
-                //     "itemsPerRow": {
-                //         "desktop": 3,
-                //         "mobile": 1
-                //     }
-                // }
             ],
             "OneOrTwoLineSummary": "product-summary.shelf#global_content-skus"
-            // ,
-            // "ManyByLineSummary": "product-summary.shelf"
         }
     },
 

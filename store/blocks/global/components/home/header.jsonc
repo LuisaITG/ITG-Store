@@ -51,11 +51,6 @@
     ]
   },*/
   
-  "login": {
-    "props": {
-      "blockClass": "custom-login"
-    }
-  },
 
   "flex-layout.col#category-item--1": {
     "title": "Category Item 1 - Header Menu",

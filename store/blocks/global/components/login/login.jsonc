@@ -1,18 +1,16 @@
 {
-    "login": {
+    "login#demo": {
+        "title": "Login Block",
         "props": {
+            "blockClass": "login",
             "optionsTitle": "LOG-IN",
             "emailAndPasswordTitle": "LOG IN",
-            "accessCodeTitle": "ENTER YOUR E-MAIL",
+            "accessCodeTitle": "RECUPERAR CLAVE",
+            
             "emailPlaceholder": "Enter your e-mail",
             "passwordPlaceholder": "Enter your password",
-            "providerPasswordButtonLabel": "Continue with an e-mail and password"
-        }
-    },
-
-    "login-content":{
-        "props": {
-            "emailPlaceholder": "Holissssssssss"
+            "accessCodePlaceholder": "Enter your access code",
+            "providerPasswordButtonLabel": "Continue with e-mail and password"
         }
     }
 
